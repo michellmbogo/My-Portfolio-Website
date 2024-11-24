@@ -1,3 +1,22 @@
-nav {
-background-color:lightblue ;
+.navbar {
+background-color:orangered;
+padding: 10px 10px;
+}
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 20px;
+    padding:20px 20px;
+    justify-content: center;
+}
+.navbar-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition:background color 0.3 ease;
+}
+.navbar-menu a:hover {
+    background-color: darkorange;
+    color: black;
 }
