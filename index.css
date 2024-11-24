@@ -20,3 +20,87 @@ padding: 10px 10px;
     background-color: darkorange;
     color: black;
 }
+#title {
+color: black;
+font-size:50px;
+text-align: center;
+}
+#hero {
+    font-size: 20 px;
+    text-align: center;
+}
+#About-title {
+    font-size: 30px;
+}
+
+#about-section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin:0 auto;
+    align-items: center;
+}
+
+#profile-photo {
+    border-radius: 8px;
+}
+
+#my_skills{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:0 auto;
+    align-items: center;
+}
+.projects-image{
+width: 300px;
+height: auto;
+}
+
+#my_projects{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#projects-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+    row-gap: 20px;
+
+}
+#main-projects{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+#projects-description{
+    text-align: center;
+}
+#contact{
+    font-size: 30px;
+}
+#contact {
+    text-align: center;
+}
+#contact-form{
+    display:flex;
+    flex-direction: column;
+    width:450px;
+    column-gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+input {
+    margin-bottom: 20px;
+}
+footer {
+    background-color: orangered;
+    justify-content: center;
+    padding: 5px 5px;
+    text-align: center;
+}
